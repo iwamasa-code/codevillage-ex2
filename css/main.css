@@ -1,0 +1,317 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav,
+ul,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #000000;
+  color: #fff;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 36px;
+  margin-top: 99px;
+}
+
+.title:after {
+  content: "";
+  display: inline-block;
+  width: 6rem;
+  border-top: 1px solid #FFFFFF;
+  margin-top: 22.5px;
+  margin-bottom: 70.5px;
+}
+
+#first-v {
+  background-image: url("../img/tonkatsu.png");
+  background-repeat: no-repeat;
+  background-size: 80%, 80%;
+  background-position: 135% 55%;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.bgc {
+  background-color: #800000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 70%;
+  z-index: -1;
+}
+
+.shopName {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  font-size: 1.6rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(315%, 50%);
+          transform: translate(315%, 50%);
+  font-family: Sawarabi Mincho;
+}
+
+.fv_name {
+  padding-top: 20px;
+  padding-right: 2.8rem;
+  letter-spacing: 2.2rem;
+  font-size: 40px;
+}
+
+.fv_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-335%, 0%);
+          transform: translate(-335%, 0%);
+  font-size: 1.8rem;
+  width: 10vw;
+  height: 30vh;
+  font-family: Sawarabi Mincho;
+}
+
+.Reservation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 5px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #641616), to(#BF0000));
+  background: linear-gradient(0deg, #641616 10%, #BF0000);
+  outline: 1px solid #fff;
+  outline-offset: -10px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 10vw;
+  height: 45vh;
+}
+/*# sourceMappingURL=main.css.map */
